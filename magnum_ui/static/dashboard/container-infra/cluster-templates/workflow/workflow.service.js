@@ -57,10 +57,7 @@
       var schema;
       var coes = [{value: '', name: gettext("Choose a Container Orchestration Engine")},
                    {value: "swarm", name: gettext("Docker Swarm")},
-                   {value: "swarm-mode", name: gettext("Docker Swarm Mode")},
-                   {value: "kubernetes", name: gettext("Kubernetes")},
-                   {value: "mesos", name: gettext("Mesos")},
-                   {value: "dcos", name: gettext("DC/OS")}];
+                   {value: "swarm-mode", name: gettext("Docker Swarm Mode")}];
       /* default is first value */
       var supportedNetworkDrivers = {
         initial: [{value:"", name: gettext("Choose a Network Driver")},
